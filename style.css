@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+  margin-top: 3%;
+}
+
+#filterForm {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: violet;
+  padding: 1%;
+  border-radius: 10px;
+  min-width: 1000px;
+  @media screen and (max-width: 600px) {
+    min-width: 300px;
+    
+  }
+  }
+  #results {
+  margin-top: 5%;
+  }
+  #formStyle {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 600px) {
+      min-width: 300px;
+      
+    }
+  }
+  
+
+body{
+  background-color: blueviolet;
+}
+
+.flotante {
+  float: left;
+}
+
+
